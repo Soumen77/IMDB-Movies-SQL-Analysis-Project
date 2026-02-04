@@ -1,100 +1,159 @@
-# DataMites SQL Project
+🎬 IMDB Movies Database Analysis using SQL
 
-## 📌 Project Overview
+📌 Project Overview
 
-This repository contains an **SQL project developed as part of the DataMites training program**. The project focuses on strengthening core SQL concepts through practical, hands-on problem-solving using structured datasets. It demonstrates the ability to write efficient queries, analyze data, and present results in a clear and meaningful way.
+This project focuses on performing comprehensive data analysis on an IMDB Movies dataset using SQL. The objective is to extract meaningful insights related to movie performance, audience preferences, genre trends, and contributor impact (directors and actors). The project simulates real-world business queries that a Data Analyst would solve in the entertainment or media domain.
 
-The project simulates real-world data analysis tasks that are commonly encountered in entry-level to mid-level data roles.
+🎯 Problem Statement
 
----
+The film industry generates large volumes of data, but extracting actionable insights requires efficient querying and analytical thinking.
+This project aims to answer key analytical questions such as:
 
-## 🎯 Objectives
+Which movies are top-rated and most popular?
 
-* Strengthen understanding of SQL fundamentals
-* Practice writing optimized queries for data retrieval and analysis
-* Work with structured datasets similar to real business scenarios
-* Prepare for data analyst and SQL interview questions
+Which genres perform best in terms of ratings and volume?
 
----
+Who are the most successful directors and actors?
 
-## 🛠️ Tools & Technologies Used
+How do budget, revenue, and ratings relate to movie success?
 
-* **Database Language:** SQL
-* **Database Environment:** MySQL / Oracle (as per DataMites curriculum)
-* **Query Types:**
+What trends exist across different release years?
 
-  * SELECT statements
-  * Filtering using WHERE
-  * Sorting using ORDER BY
-  * Aggregation using COUNT, SUM, AVG
-  * GROUP BY and HAVING clauses
-  * String functions
+🗂️ Dataset Description
 
----
+The dataset is sourced from IMDB Movies data and contains structured information about films.
 
-## 📂 Project Structure
+Key Attributes:
 
-```
-├── SQL_Scripts/
-│   ├── basic_queries.sql
-│   ├── aggregate_functions.sql
-│   ├── string_functions.sql
-│   └── final_queries.sql
-├── Dataset/
-│   └── sample_tables.sql
-├── Output_Screenshots/
-├── README.md
-```
+Movie title
 
----
+Release year
 
-## 📊 Key Features
+Genre
 
-* Structured and well-documented SQL queries
-* Covers both basic and intermediate SQL concepts
-* Output formatted according to business requirements
-* Includes ordering, grouping, and conditional logic
+Duration
 
----
+IMDB rating
 
-## 🧪 Sample Use Case
+Number of votes
 
-* Extracting meaningful insights from structured tables
-* Formatting query outputs for reporting purposes
-* Counting and categorizing records based on conditions
-* Applying string manipulation for presentation-ready output
+Director name
 
----
+Actor names
 
-## 📸 Screenshots
+Budget and revenue
 
-The repository includes screenshots of:
+The dataset is stored in relational format, making it suitable for SQL-based analysis.
 
-* Table creation and data insertion
-* Query execution
-* Final output results
+🛠️ Tools & Technologies
 
----
+Database: MySQL
 
-## 🚀 Learning Outcomes
+Language: SQL
 
-* Improved confidence in writing SQL queries
-* Better understanding of data aggregation and filtering
-* Ability to translate problem statements into SQL logic
-* Readiness for SQL-based technical interviews
+Environment: MySQL Workbench
 
----
+Dataset: IMDB Movies Dataset
 
-## 📎 Acknowledgment
+🔍 SQL Concepts & Techniques Used
 
-This project was completed as part of the **DataMites SQL training program** to gain hands-on experience in database querying and data analysis.
+This project demonstrates practical usage of both basic and advanced SQL concepts:
 
----
+Data filtering using WHERE
 
-## 📬 Contact
+Sorting using ORDER BY
 
-For any questions or suggestions, feel free to connect via GitHub.
+Aggregations using COUNT, SUM, AVG, MIN, MAX
 
----
+Group-based analysis using GROUP BY and HAVING
 
-⭐ If you found this project helpful, consider giving it a star!
+Multi-table analysis using JOIN
+
+Subqueries for nested logic
+
+Conditional logic using CASE
+
+Date and string functions
+
+Query optimization and structured query design
+
+📊 Analysis Performed
+
+The following analyses were conducted using SQL queries:
+
+Identification of top-rated movies based on IMDB ratings
+
+Analysis of most-voted and most popular movies
+
+Genre-wise movie count and average ratings
+
+Year-wise movie release trends
+
+Director-wise and actor-wise performance analysis
+
+Budget vs revenue performance evaluation
+
+Identification of high-performing and underperforming movies
+
+Each query is designed to answer a specific business-oriented question.
+
+📈 Key Insights
+
+Certain genres consistently receive higher average ratings compared to others
+
+Popularity (votes) does not always correlate directly with high ratings
+
+A small group of directors and actors contribute disproportionately to high-rated movies
+
+Movie production volume varies significantly across years
+
+Higher budget does not always guarantee better ratings
+
+🧠 Business Use Cases
+
+Helps production houses identify profitable genres and contributors
+
+Supports marketing teams in targeting audience-preferred movie types
+
+Assists streaming platforms in content acquisition strategies
+
+Demonstrates how SQL can be used for media analytics
+
+📁 Project Structure
+
+IMDB-Movies-SQL-Analysis/
+│
+
+├── SQL Queries/
+
+│   └── Project_movie_database_Problem_Query.sql
+
+│
+├── Documentation/
+
+│   ├── IMDB_Movies_Project_Report.pdf
+
+│   └── IMDB_Movies_Dataset_Description.docx
+│
+
+└── README.md
+
+✅ Results & Conclusion
+
+This project successfully demonstrates the ability to analyze a real-world dataset using SQL and derive actionable insights. It highlights proficiency in writing optimized queries, understanding relational data, and translating analytical findings into business-relevant conclusions.
+
+🚀 Future Enhancements
+
+Add advanced window functions for deeper analysis
+
+Visualize insights using Power BI or Tableau
+
+Automate data ingestion and reporting
+
+Expand analysis to include OTT platform trends
+
+🧑‍💻 Author
+
+Soumen
+
+Aspiring Data Analyst | SQL | Power BI | Advanced Excel
